@@ -2,7 +2,7 @@
 
 Jaanus Kase, jaanuskase.com
 
-This script imports blog entries from [Movable Type Import format](http://www.sixapart.com/movabletype/docs/mtimport) to Tumblr. [Related blog post.](http://www.jaanuskase.com/en/2010/09/mt2tumblr_import_blog_posts_fr.html)
+This script imports blog entries from [Movable Type Import format](http://www.sixapart.com/movabletype/docs/mtimport) to Tumblr. [Related blog post.](http://jaanus.com/post/1451099140/mt2tumblr-import-blog-posts-fr)
 
 ## How to use
 
