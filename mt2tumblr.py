@@ -84,7 +84,7 @@ for mtPost in postsFromMt:
         alreadyExists = False
         
         for currentPost in posts:
-            if currentPost["regular-title"] == post["title"]:
+            if (currentPost["type"] in ["text", "regular"]) and (currentPost["regular-title"] == post["title"]):
                 alreadyExists = True
         if not alreadyExists:
             try:
