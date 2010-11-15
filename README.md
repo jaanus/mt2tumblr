@@ -12,6 +12,12 @@ This script imports blog entries from [Movable Type Import format](http://www.si
 1. Run the script and observe the import.
 1. If something goes wrong when running the script, you can run it many times until the import to Tumblr is complete.
 
+## Changes
+
+### Nov 14, 2010
+
+The script didn’t work correctly when posting to an existing Tumblr site that had existing posts with non-text type (photo, video etc). Added an extra check to fix that.
+
 ## Motivation
 
 I’ve had some blogs for a while that I’ve wanted to migrate from Movable Type to Tumblr. I contacted Tumblr a while ago and asked if they support importing from Movable Type. They said they don’t. But Tumblr has an [API.](http://www.tumblr.com/docs/en/api) I already knew a thing or two about MT import file format and so I thought, why not put it together and make a little importer. Maybe this is useful to others too.
